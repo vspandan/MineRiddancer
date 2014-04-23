@@ -1,0 +1,12 @@
+PATTERNS AND SOLVING:
+1.SINGLE-SQUARE ANALYSIS:
+
+   There are two special cases that are of extra interest when solving board canbe solved using analysis of only one square and its surrounding squares[1]
+   If the number of unclicked(blank/flagged)squares adjacent to numbered square is equaltonumber on that square,all these unclicked squares must be mines.
+   For any numbered square,if the number of mines you've found adjacent to that square is equal to number of the square,all other squares adjacent to numbered  square must be 'safe' (eg. If you know the square to the right of a 1 is a mine,then you can deduce that all other squares next to that 1 do not contain mines.)
+
+2.MULTIPLE SQUARE ANALYSIS:
+
+   To solve more complex puzzles, one needs to consider more than one square at a time.Some strategies that involve considering more than one number at a time. If you have two adjacent numbers, the difference between those numbers is equal to the difference in the amount of mines for the 3 squares adjacent to each thatare not adjacent to the other number.
+   For example: if these numbers differ by 3, all of the adjacent squares to thehigher number not shared by the other are mines, and all the opposite ones are  safe.
+   In similar method, sometimes it can be known that there are a certain number of  mines in a certain number of squares (without necessarily knowing which are mines and which are safe)and you can often utilise this information to find out information about other squares.

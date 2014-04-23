@@ -1,0 +1,5 @@
+
+Press 'f' to flag a box or to defag a box
+Press 's' to open a box
+Press esc key to terminate the game
+Use arrow keys to move the selector
